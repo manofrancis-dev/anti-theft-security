@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anti-Theft Security - Cyber Security System</title>
+    
+    <!-- SEO Meta Tags & Keywords for First Rank -->
+    <title>Anti-Theft Security - Best Android Security App | Mano Francis Dev</title>
+    <meta name="title" content="Anti-Theft Security - Best Android Security App | Mano Francis Dev">
+    <meta name="description" content="Download Anti-Theft Security app by Mano Francis Dev (MF). Real-time motion detection, charger unplug alert, and wrong password alarm for your Android device.">
+    <meta name="keywords" content="anti-theft, anti theft security, mano francis dev, mf, mano, francis, anti, theft, android security alarm, phone protection app">
+    <meta name="author" content="Mano Francis Dev">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://manofrancis-dev.github.io/anti-theft-security/">
+    <meta property="og:title" content="Anti-Theft Security App - Mano Francis Dev">
+    <meta property="og:description" content="Secure your Android phone with real-time motion detection, charger removal alert, and wrong password sirens.">
+    <meta property="og:image" content="logo.png">
+
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
     <style>
         body {
             background-color: #0B0F19;
@@ -15,7 +32,6 @@
             overflow-x: hidden;
         }
 
-        /* Glassmorphism Styles */
         .glass-card {
             background: rgba(17, 24, 39, 0.75);
             backdrop-filter: blur(16px);
@@ -30,16 +46,10 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.08);
         }
 
-        /* Glow & Tech Effects */
         .glow-cyan {
             box-shadow: 0 0 35px -5px rgba(0, 242, 254, 0.35);
         }
 
-        .glow-blue {
-            box-shadow: 0 0 35px -5px rgba(37, 99, 235, 0.4);
-        }
-
-        /* Ambient Background Blobs */
         .bg-blob-1 {
             position: absolute;
             top: -10%;
@@ -65,7 +75,6 @@
             z-index: 0;
         }
 
-        /* Touch & Tap Effects for Mobile */
         .touch-active:active {
             transform: scale(0.97);
         }
@@ -73,11 +82,10 @@
 </head>
 <body class="min-h-screen flex flex-col justify-between relative selection:bg-cyan-500 selection:text-black">
 
-    <!-- Background Ambient Glow -->
     <div class="bg-blob-1"></div>
     <div class="bg-blob-2"></div>
 
-    <!-- Sticky Glass Navigation Bar -->
+    <!-- Navigation Bar -->
     <nav class="sticky top-0 z-50 glass-nav w-full px-4 py-3.5 transition-all">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <a href="#" class="flex items-center gap-3 group">
@@ -87,7 +95,7 @@
                 </div>
                 <div>
                     <h1 class="font-bold text-base md:text-lg leading-none tracking-tight text-white">Anti-Theft Security</h1>
-                    <p class="text-[10px] md:text-xs text-cyan-400 font-semibold tracking-wider mt-0.5">CYBER SECURITY SYSTEM</p>
+                    <p class="text-[10px] md:text-xs text-cyan-400 font-semibold tracking-wider mt-0.5">BY MANO FRANCIS DEV</p>
                 </div>
             </a>
             
@@ -100,19 +108,17 @@
     <!-- Hero Section -->
     <main class="relative z-10 max-w-5xl mx-auto px-5 pt-8 pb-12 text-center flex flex-col items-center">
         
-        <!-- Animated Badge -->
         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-6 shadow-inner">
             <span class="relative flex h-2 w-2">
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
-            <span>Real-time Active Protection</span>
+            <span>Real-time Active Protection • By Mano Francis</span>
         </div>
 
-        <!-- Center App Logo Display -->
         <div class="mb-6 relative">
             <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur-xl opacity-40 animate-pulse"></div>
-            <img src="logo.png" alt="MF Security Shield" class="relative w-28 h-28 md:w-36 md:h-36 object-contain rounded-2xl border border-white/15 p-2 bg-slate-900/90 shadow-2xl">
+            <img src="logo.png" alt="Anti-Theft Security Shield" class="relative w-28 h-28 md:w-36 md:h-36 object-contain rounded-2xl border border-white/15 p-2 bg-slate-900/90 shadow-2xl">
         </div>
 
         <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-4">
@@ -123,10 +129,9 @@
         </h1>
 
         <p class="text-slate-400 text-sm sm:text-base md:text-lg max-w-xl mb-8 leading-relaxed">
-            Instant high-decibel alarm triggers on unauthorized movement, charger removal, and wrong password attempts.
+            Instant high-decibel alarm triggers on unauthorized movement, charger removal, and wrong password attempts. Developed by <b>Mano Francis (MF)</b>.
         </p>
 
-        <!-- Main Download Button -->
         <div id="download" class="w-full max-w-sm sm:max-w-md">
             <a href="https://github.com/manofrancis-dev/anti-theft-security/releases/download/v1.0/Anti-Theft.apk" class="touch-active glow-cyan group relative flex items-center justify-center gap-3 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 bg-[length:200%_auto] hover:bg-right transition-all duration-500 text-white py-4 px-6 rounded-2xl font-bold text-base md:text-lg shadow-2xl border border-cyan-300/40">
                <svg class="w-6 h-6 text-white group-hover:translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -136,13 +141,9 @@
             </a>
             
             <div class="flex items-center justify-center gap-4 mt-4 text-[11px] md:text-xs text-slate-400 font-medium">
-                <span class="flex items-center gap-1">
-                    <svg class="w-3.5 h-3.5 text-cyan-400" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/></svg> Free
-                </span>
+                <span class="flex items-center gap-1">Free</span>
                 <span>•</span>
-                <span class="flex items-center gap-1">
-                    <svg class="w-3.5 h-3.5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg> Safe & Secure
-                </span>
+                <span class="flex items-center gap-1">Safe & Secure</span>
                 <span>•</span>
                 <span>Android 8.0+</span>
             </div>
@@ -153,60 +154,40 @@
     <section class="relative z-10 max-w-6xl mx-auto px-5 py-10">
         <div class="text-center mb-8">
             <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Key Protection Features</h2>
-            <p class="text-slate-400 text-xs md:text-sm mt-1">Smart security tools working together to keep your phone safe</p>
+            <p class="text-slate-400 text-xs md:text-sm mt-1">Smart security tools built by Mano Francis Dev</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-            
-            <!-- Feature 1: Motion Detection -->
             <div class="glass-card p-6 rounded-2xl hover:border-cyan-500/40 transition-all duration-300 group">
                 <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-600/20 border border-cyan-400/30 flex items-center justify-center mb-4 text-cyan-400 group-hover:scale-110 transition-transform">
-                    <!-- High Quality SVG Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                 </div>
                 <h3 class="text-lg font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">Motion Detection Alarm</h3>
-                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">
-                    Triggers a high-decibel alarm instantly if anyone moves or picks up your phone from where it's placed.
-                </p>
+                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">Triggers a high-decibel alarm instantly if anyone moves or picks up your phone.</p>
             </div>
 
-            <!-- Feature 2: Charger Unplug -->
             <div class="glass-card p-6 rounded-2xl hover:border-cyan-500/40 transition-all duration-300 group">
                 <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-600/20 border border-blue-400/30 flex items-center justify-center mb-4 text-blue-400 group-hover:scale-110 transition-transform">
-                    <!-- High Quality SVG Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
                 <h3 class="text-lg font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">Charger Unplug Alert</h3>
-                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">
-                    Sounds a loud siren if an intruder disconnects your device while charging in public stations.
-                </p>
+                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">Sounds a loud siren if an intruder disconnects your device while charging in public.</p>
             </div>
 
-            <!-- Feature 3: Wrong Password -->
             <div class="glass-card p-6 rounded-2xl hover:border-cyan-500/40 transition-all duration-300 group">
                 <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-teal-600/20 border border-teal-400/30 flex items-center justify-center mb-4 text-teal-300 group-hover:scale-110 transition-transform">
-                    <!-- High Quality SVG Icon -->
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
-                    </svg>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
                 </div>
                 <h3 class="text-lg font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">Wrong Password Alarm</h3>
-                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">
-                    Detects wrong PIN or pattern attempts on lock screen and alerts you with a loud warning siren.
-                </p>
+                <p class="text-slate-400 text-xs md:text-sm leading-relaxed">Detects wrong PIN or pattern attempts on lock screen and alerts you instantly.</p>
             </div>
-
         </div>
     </section>
 
     <!-- Installation Steps Section -->
     <section class="relative z-10 max-w-4xl mx-auto px-5 py-8 mb-6">
         <div class="glass-card p-6 sm:p-8 rounded-3xl border border-cyan-500/20">
-            <h2 class="text-xl font-bold mb-6 text-center text-cyan-400 tracking-tight">How to Install</h2>
+            <h2 class="text-xl font-bold mb-6 text-center text-cyan-400 tracking-tight">How to Install Anti-Theft Security</h2>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
                 <div class="flex flex-col items-center">
                     <div class="w-9 h-9 rounded-full bg-blue-600/30 border border-blue-400/40 text-cyan-400 font-extrabold flex items-center justify-center mb-2.5 text-sm">1</div>
@@ -224,21 +205,17 @@
         </div>
     </section>
 
-    <!-- Interactive Floating Scroll To Top Button -->
+    <!-- Scroll To Top Button -->
     <button id="scrollToTopBtn" onclick="scrollToTop()" class="touch-active fixed bottom-6 right-6 z-50 p-3.5 rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 text-white shadow-2xl border border-cyan-300/40 opacity-0 pointer-events-none transition-all duration-300 hover:scale-110 active:scale-95 glow-cyan">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-        </svg>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
     </button>
 
     <!-- Footer -->
     <footer class="relative z-10 w-full border-t border-slate-800/80 py-6 text-center text-[11px] md:text-xs text-slate-500">
-        <p class="tracking-wider">DESIGNED BY MANO FRANCIS • CYBER SECURITY SYSTEM</p>
+        <p class="tracking-wider">DESIGNED AND DEVELOPED BY MANO FRANCIS (MF) • ANTI-THEFT SECURITY SYSTEM</p>
     </footer>
 
-    <!-- Interactive Scripts -->
     <script>
-        // Scroll To Top Button Toggle Logic
         const scrollTopBtn = document.getElementById("scrollToTopBtn");
 
         window.onscroll = function() {
@@ -252,10 +229,7 @@
         };
 
         function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
+            window.scrollTo({ top: 0, behavior: "smooth" });
         }
     </script>
 </body>
